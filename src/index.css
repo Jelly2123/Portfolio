@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #7c3aed;
+  --color-primary-glow: rgba(124, 58, 237, 0.15);
+  --color-accent: #22d3ee;
+  --color-accent-glow: rgba(34, 211, 238, 0.15);
+  --color-bg-dark: #050816;
+  --color-surface: #0f172a;
+  --color-text-light: #f8fafc;
+  --color-muted: #94a3b8;
+
+  --font-display: "Space Grotesk", sans-serif;
+  --font-sans: "Inter", sans-serif;
+}
+
+@layer base {
+  html {
+    background-color: #050816;
+    color: #f8fafc;
+    font-family: var(--font-sans);
+    overflow-x: hidden;
+  }
+  
+  body {
+    background-color: #050816;
+    color: #f8fafc;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    font-weight: 700;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #050816;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e1b4b;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #7c3aed;
+}
+
+/* Custom transitions and helper styles */
+.text-gradient {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(to right, #7c3aed, #22d3ee);
+}
+
+.text-gradient-cyan {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(to right, #22d3ee, #7c3aed);
+}
+
+/* Selection Highlight */
+::selection {
+  background: rgba(124, 58, 237, 0.3);
+  color: #f8fafc;
+}
