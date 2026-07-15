@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { BookOpen, Award, Terminal, Calendar, GraduationCap, ChevronLeft, ChevronRight } from 'lucide-react';
+import { BookOpen, Terminal, Calendar, GraduationCap, ChevronLeft, ChevronRight } from 'lucide-react';
 import { personalInfo } from '../data/portfolioData';
 
 interface Chapter {
@@ -29,19 +29,6 @@ const chapters: Chapter[] = [
   },
   {
     id: 2,
-    title: 'Analytical Foundation',
-    subtitle: 'B.Sc. Mathematics Graduate',
-    period: '2023 - 2025',
-    icon: <Award className="text-[#22D3EE]" size={24} />,
-    content: 'Believing that software developer logic is anchored in mathematics, I completed a B.Sc in Mathematics. This academic pathway trained me to break down highly convoluted problems into manageable algorithms and gave me an edge in query optimization.',
-    bullets: [
-      'Studied Abstract Algebra, Statistics, and Numerical Analysis.',
-      'Translated mathematical proofs into step-by-step programming algorithms.',
-      'Gained deep precision and patience required for complex system debugging.'
-    ]
-  },
-  {
-    id: 3,
     title: 'Professional Immersion',
     subtitle: 'Web Development Internship at Softpro India',
     period: 'Summer 2024',
@@ -54,7 +41,7 @@ const chapters: Chapter[] = [
     ]
   },
   {
-    id: 4,
+    id: 3,
     title: 'Solving Actual Problems',
     subtitle: 'Production Applications Developed',
     period: '2025 - Present',
@@ -67,7 +54,7 @@ const chapters: Chapter[] = [
     ]
   },
   {
-    id: 5,
+    id: 4,
     title: 'The Next Chapter',
     subtitle: 'A Future of Scalable Systems',
     period: 'Future',

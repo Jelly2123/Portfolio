@@ -53,21 +53,10 @@ export const personalInfo = {
   github: 'https://github.com/Jelly2123/Test1',
   linkedin: 'https://www.linkedin.com/in/pragya-kashyap-020514307',
   resumeUrl: '#', // We will make a downloadable resume or placeholder PDF link
-  aboutText: 'Every developer starts somewhere. Mine began with a deep curiosity for computing which led to a Computer Science Diploma, followed by a B.Sc in Mathematics to build a strong analytical foundation. Combining logical precision with modern web technologies, I found my passion in backend development, specifically building robust, secure, and clean architectures with Laravel and PHP.',
+  aboutText: 'Every developer starts somewhere. Mine began with a deep curiosity for computing which led to a Computer Science Diploma. Combining logical precision with modern web technologies, I found my passion in backend development, specifically building robust, secure, and clean architectures with Laravel and PHP.',
 };
 
 export const educationData: EducationItem[] = [
-  {
-    degree: 'B.Sc. Mathematics',
-    institution: 'University Graduate Program',
-    duration: 'Graduated',
-    score: 'First Division',
-    details: [
-      'Built a strong analytical and problem-solving foundation.',
-      'Specialized in Numerical Analysis, Abstract Algebra, and Statistics.',
-      'Applied mathematical concepts to logic building in programming.'
-    ]
-  },
   {
     degree: 'Diploma in Computer Science & Engineering',
     institution: 'Technical Board / Institute',
@@ -87,16 +76,6 @@ export const educationData: EducationItem[] = [
     details: [
       'Focused on Science stream (Physics, Chemistry, Mathematics).',
       'Discovered passion for algorithmic thinking and logic.'
-    ]
-  },
-  {
-    degree: 'Class X (High School)',
-    institution: 'Secondary School',
-    duration: 'Completed',
-    score: 'Distinction',
-    details: [
-      'Academically ranked in the top percentile.',
-      'Secured scholarship for higher studies.'
     ]
   }
 ];
@@ -191,12 +170,6 @@ export const experienceRoadmap: Milestone[] = [
     type: 'education'
   },
   {
-    year: '2023',
-    title: 'Analytical Depth',
-    description: 'Enrolled in B.Sc Mathematics to build advanced mathematical, logical, and statistics skills, providing an analytical edge.',
-    type: 'learning'
-  },
-  {
     year: '2024',
     title: 'Professional Step',
     description: 'Joined Softpro India for a dedicated internship training, learning professional PHP, Laravel development, and team collaboration workflows.',
@@ -245,7 +218,7 @@ export const whyHireMeCards: WhyHireMeCard[] = [
   },
   {
     title: 'Analytical Thinker',
-    description: 'Mathematics graduate background providing a logical approach to debugging, algorithmic efficiency, and complex queries.',
+    description: 'Strong analytical background providing a logical approach to debugging, algorithmic efficiency, and complex queries.',
     icon: 'Brain'
   },
   {
