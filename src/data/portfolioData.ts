@@ -112,13 +112,13 @@ export const skillGroups: SkillGroup[] = [
 
 export const internshipData = {
   company: 'Softpro India Computer Technologies Pvt. Ltd.',
-  role: 'Web Development Intern (PHP & Laravel)',
-  duration: '6 Weeks Training & Internship',
+  role: 'Web Development Apprentice (PHP & Laravel)',
+  duration: '8 Months Apprenticeship',
   details: [
-    'Learned advanced PHP syntax, MySQL query optimization, and Laravel MVC workflow.',
-    'Collaborated on database designs for web solutions and resolved routing issues.',
-    'Developed dynamic responsive frontends connected to secure backend REST endpoints.',
-    'Deployed testing versions of projects on local and staging servers.'
+    'Mastered advanced PHP, complex MySQL query optimizations, and secure Laravel MVC architectures.',
+    'Collaborated on database design schemas and implemented robust API routing workflows.',
+    'Developed and integrated responsive frontends with secure backend REST endpoints.',
+    'Managed deployment pipelines, local/staging servers, and team Git repositories.'
   ],
   techUsed: ['PHP', 'Laravel', 'MySQL', 'Bootstrap', 'JavaScript', 'Git']
 };
@@ -172,7 +172,7 @@ export const experienceRoadmap: Milestone[] = [
   {
     year: '2024',
     title: 'Professional Step',
-    description: 'Joined Softpro India for a dedicated internship training, learning professional PHP, Laravel development, and team collaboration workflows.',
+    description: 'Joined Softpro India for a dedicated 8-month apprenticeship, mastering professional PHP, Laravel development, and commercial development workflows.',
     type: 'internship'
   },
   {
@@ -197,9 +197,9 @@ export const achievementStats: Achievement[] = [
     description: 'Languages, frameworks, and modern tools.'
   },
   {
-    title: 'Internship Training',
-    value: 6,
-    suffix: ' Wks',
+    title: 'Apprenticeship',
+    value: 8,
+    suffix: ' Mos',
     description: 'At Softpro India, working on commercial development methodologies.'
   },
   {

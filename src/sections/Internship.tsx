@@ -25,7 +25,7 @@ export default function Internship() {
     } else if (cmd === 'test-db') {
       response = 'Testing MySQL connections... SUCCESS. 6 tables found.';
     } else if (cmd === 'fetch-logs') {
-      response = 'Fetching Softpro India logs: 6 Weeks PHP & Laravel Internship Completed.';
+      response = 'Fetching Softpro India logs: 8 Months PHP & Laravel Apprenticeship Completed.';
     } else if (cmd) {
       response = `Command "${cmd}" not recognized. Type "help" for a list of commands.`;
     }
@@ -161,15 +161,15 @@ export default function Internship() {
               <div className="flex-grow overflow-y-auto max-h-[300px] mb-6 pr-2">
                 {activeFile === 'training.log' && (
                   <pre className="text-[#94A3B8] leading-relaxed whitespace-pre-wrap">
-                    <span className="text-[#22D3EE]"># WEEK 1-2: Core PHP Refinement</span>{'\n'}
-                    - Deep dive into PHP OOP concepts, visibility keywords, inheritance.{'\n'}
-                    - Learnt relational data modeling and MySQL index optimizations.{'\n\n'}
-                    <span className="text-[#22D3EE]"># WEEK 3-4: Laravel Ecosystem</span>{'\n'}
-                    - Studied Laravel Service Providers, Middleware layers, Eloquent ORM.{'\n'}
-                    - Built routing architectures for admin & department controls.{'\n\n'}
-                    <span className="text-[#22D3EE]"># WEEK 5-6: System Integrations</span>{'\n'}
-                    - Deployed mock portals, hooked Bootstrap responsive CSS styles.{'\n'}
-                    - Configured staging databases, resolved local merge conflicts.{'\n'}
+                    <span className="text-[#22D3EE]"># MONTH 1-2: Core PHP & Backend Fundamentals</span>{'\n'}
+                    - Deep dive into PHP OOP concepts, inheritance, and SOLID principles.{'\n'}
+                    - Database normalization, schema design, and index optimization in MySQL.{'\n\n'}
+                    <span className="text-[#22D3EE]"># MONTH 3-4: Enterprise Laravel Development</span>{'\n'}
+                    - Implemented Service Providers, Custom Middleware, and Eloquent relations.{'\n'}
+                    - Developed secure API endpoints and custom authentication gates.{'\n\n'}
+                    <span className="text-[#22D3EE]"># MONTH 5-8: Production Deployments & Collaboration</span>{'\n'}
+                    - Built full-featured client applications and conducted testing cycles.{'\n'}
+                    - Managed version control (Git), team code reviews, and staging migrations.{'\n'}
                   </pre>
                 )}
 
@@ -198,8 +198,9 @@ export default function Internship() {
 
                 {activeFile === 'project_specs.md' && (
                   <pre className="text-[#94A3B8] leading-relaxed whitespace-pre-wrap">
-                    <span className="text-[#22D3EE]"># INTERNSHIP PROJECTS SPECS</span>{'\n\n'}
-                    During training, we simulated a live clinic/canteen pre-ordering pipeline. 
+                    <span className="text-[#22D3EE]"># APPRENTICESHIP PROJECTS SPECS</span>{'\n\n'}
+                    During our training and project integration phases, we simulated a live 
+                    clinic/canteen pre-ordering pipeline and internal request systems. 
                     I developed responsive grid templates, handled session cookies, and built 
                     secure REST endpoints that accept input data parameters, validate client forms, 
                     and return query results in formatted displays.{'\n\n'}

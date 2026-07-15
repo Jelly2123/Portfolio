@@ -30,12 +30,12 @@ const chapters: Chapter[] = [
   {
     id: 2,
     title: 'Professional Immersion',
-    subtitle: 'Web Development Internship at Softpro India',
-    period: 'Summer 2024',
+    subtitle: 'Web Development Apprenticeship at Softpro India',
+    period: '2024 (8 Months)',
     icon: <Terminal className="text-[#7C3AED]" size={24} />,
-    content: 'To transition from student to developer, I completed a 6-week intensive internship at Softpro India. I was immersed in enterprise MVC systems, routing schemas, and database transactions under professional supervision.',
+    content: 'To transition from student to developer, I completed an 8-month apprenticeship at Softpro India. I was immersed in enterprise MVC systems, routing schemas, and database transactions under professional supervision.',
     bullets: [
-      'Learned structured Laravel development methodology and API routing.',
+      'Mastered structured Laravel development methodology and API routing.',
       'Collaborated on git repositories and fixed version conflicts.',
       'Built and deployed clean frontends hooked to database backends.'
     ]
